@@ -67,10 +67,10 @@ const ActivityFeed = () => {
         </span>
       </div>
       <div className="xl:flex-col gap-2">
-        <div className="flex flex-col xl:flex-row   gap-2 xl:gap-2.5 justify-between">
+        <div className="flex flex-col xl:flex-row   gap-2 xl:gap-3 justify-between">
           {colors.map((color, index) => (
             <div
-              className="flex flex-row gap-2 xl:gap-2.5 items-center justify-between"
+              className="flex flex-row gap-2 xl:gap-3 items-center justify-between"
               key={index}
             >
               <div className="bg-gray-300 h-20 w-1 rounded-full"></div>
